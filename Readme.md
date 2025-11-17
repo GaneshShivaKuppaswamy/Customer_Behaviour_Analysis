@@ -1,200 +1,188 @@
-📊 Customer Behaviour Analysis using SQL, Python & Power BI
+# Customer Behaviour Analysis using SQL, Python & Power BI
 
 A complete end-to-end customer behaviour analytics project covering data cleaning, SQL analysis, interactive dashboards, and business insights for decision-making in e-commerce/retail environments.
 
-🧾 Project Overview
+---
 
-This project analyzes customer shopping behaviour using transactional retail data from 3,900+ purchases.
-Key objectives include:
+## 📘 Project Overview
 
-Understanding revenue drivers
+This project analyzes customer shopping behaviour using transactional retail data from **3,900+ purchases**.
 
-Identifying customer segments
+### Key objectives:
+- Understand revenue drivers  
+- Identify customer segments  
+- Analyze product performance  
+- Measure discount effectiveness  
+- Evaluate loyalty & subscription behaviour  
+- Build an interactive Power BI dashboard  
+- Provide actionable business recommendations  
 
-Analyzing product performance
+This represents a real-world analytics workflow combining **Python, SQL, and Power BI**.
 
-Measuring discount effectiveness
+---
 
-Evaluating subscription and loyalty behaviour
+## 📁 Repository Structure
 
-Building an interactive Power BI dashboard
+```
 
-Providing actionable business recommendations
-
-This represents a real-world analytics workflow combining Python, SQL, and Power BI.
-
-🗂️ Repository Structure
 Customer_Behaviour_Analysis/
 │
-├── Python/
-│   └── Customer_Shopping_Behavior_Analysis.ipynb
-│
-├── SQL/
-│   └── Customer_Behaviour_Analysis_SQL_Queries.sql
+├── Dashboard Image/
+│   └── PowerBI Dashboard.png
 │
 ├── PowerBI/
-│   └── customer_behavior_dashboard.pbix
+│   └── Customer_Behaviour Analysis_Dashboard.pbix
+│
+├── Python/
+│   └── Customer_Behaviour Analysis.ipynb
+│
+├── Raw Data/
+│   └── Customer_Behaviour Analysis.csv
 │
 ├── Report and Presentation/
 │   ├── Customer_Behaviour_Analysis_Report.pdf
 │   └── Customer-Behavior-Analysis_Presentation.pdf
 │
-├── Raw Data/
-│   └── customer_shopping_behavior.csv
-│
-├── Dashboard Image/
-│   └── dashboard.png
+├── SQL/
+│   └── Customer_Behaviour Analysis_SQL Queries.sql
 │
 └── README.md
 
+```
 
-(If folder names differ, update after uploading.)
+---
 
-🧹 1. Python Data Cleaning & EDA
+## 📊 Dashboard Preview
 
-Performed in Jupyter Notebook:
+*(Download full interactive dashboard from the PowerBI folder.)*
 
-Loaded and explored dataset
+![Dashboard](./Dashboard%20Image/PowerBI%20Dashboard.png)
 
-Cleaned missing values in review ratings
+---
 
-Standardized column names
+## 🐍 1. Python Data Cleaning & EDA
 
-Converted data types
+Performed in **Jupyter Notebook**:
 
-Cleaned inconsistent Yes/No entries
+- Loaded and explored dataset  
+- Cleaned missing values in review ratings  
+- Standardized column names  
+- Converted data types  
+- Cleaned inconsistent Yes/No entries  
+- Feature engineering:
+  - `age_group`
+  - `purchase_frequency_days`
+  - `customer_segment`
 
-Created additional features:
+📌 *Full notebook:*  
+👉 [Customer_Behaviour Analysis.ipynb](./Python/Customer_Behaviour%20Analysis.ipynb)
 
-age_group
+---
 
-purchase_frequency_days
+## 🗄️ 2. SQL Analysis (MySQL Workbench)
 
-customer_segment
+SQL queries answer **10 core business questions** related to:
 
-📌 See the full notebook in the Python folder.
+- Revenue by gender  
+- Discount behaviour  
+- Top-rated products  
+- Shipping preference  
+- Subscription impact  
+- Discount-dependent products  
+- Customer lifecycle segmentation  
+- Category leaders  
+- Repeat buyers  
+- Age group revenue contribution  
 
-🗄️ 2. SQL Analysis (MySQL Workbench)
+Each query includes:
+- Business question  
+- SQL code  
+- Output screenshot  
+- Insight summary  
 
-Used SQL to answer 10 business-critical questions related to:
+📌 *Full SQL file:*  
+👉 [Customer_Behaviour Analysis_SQL Queries.sql](./SQL/Customer_Behaviour%20Analysis_SQL%20Queries.sql)
 
-Revenue distribution
+---
 
-Discount behaviour
+## 📈 3. Power BI Dashboard
 
-Product performance
+Power BI provides a rich visual summary of the insights.
 
-Customer loyalty segmentation
+### Includes:
+- KPI Cards (Total Revenue, Avg Spend, Total Customers)  
+- Revenue by Gender  
+- Revenue by Age Group  
+- Customer Segments (New, Returning, Loyal)  
+- Product Category Breakdown  
+- Discount Usage  
+- Review Rating Distribution  
 
-Subscription impact
+📌 *Download .pbix:*  
+👉 [Customer_Behaviour Analysis_Dashboard.pbix](./PowerBI/Customer_Behaviour%20Analysis_Dashboard.pbix)
 
-Age group spending
+---
 
-Category-level purchase leaders
+## 🔍 Key Insights
 
-Each question includes:
+### 👥 Customer Behaviour
+- Male customers generate ~68% of revenue  
+- Young Adults & Middle-aged customers are top spenders  
 
-Business objective
+### ⭐ Product Insights
+- Clothing is the highest performing category  
+- Highest-rated items: Gloves, Sandals, Boots, Skirt  
 
-SQL query
+### 🎯 Loyalty & Subscription
+- 80% of customers are Loyal  
+- Subscription base is only 27% → huge opportunity  
 
-Screenshot of output
+### 💸 Discount Behaviour
+- Hat, Sneakers, Coat show ~50% discount usage  
+- Some products rely strongly on promotions  
 
-Insight summary
+---
 
-📌 Full SQL file is in the SQL folder.
+## 💡 Business Recommendations
 
-📊 3. Power BI Dashboard
+- Strengthen subscription program (exclusive benefits)  
+- Boost acquisition (referral programs, social ads)  
+- Reduce discount dependency on high-sensitivity items  
+- Promote top-rated products in marketing campaigns  
+- Expand high-performing categories  
+- Target high-value age groups with personalized marketing  
 
-An interactive Power BI dashboard highlights:
+---
 
-KPI Cards: Total Revenue, Average Spend, Customer Count
+## 📁 Final Deliverables
 
-Revenue by Gender
+- ✔ Python Cleaning & EDA Notebook  
+- ✔ SQL Analysis (10 questions + insights)  
+- ✔ Power BI Dashboard (.pbix)  
+- ✔ Full PDF Report  
+- ✔ Presentation Slide Deck  
+- ✔ Organized GitHub Repository  
 
-Revenue by Age Group
+---
 
-Customer Segments (New, Returning, Loyal)
+## 🛠️ Technologies Used
 
-Product Category Performance
+- Python (pandas, numpy)  
+- Jupyter Notebook  
+- MySQL Workbench  
+- Power BI  
+- Excel  
+- Git & GitHub  
 
-Discount Usage
+---
 
-Review Rating Distribution
+## 👤 Author
 
-📌 Dashboard (.pbix) file is in the PowerBI folder.
+**Ganesh Shiva Kuppaswamy**  
+MSc Data Science, AI & Digital Business  
+Berlin, Germany  
 
-🔍 Key Insights
+---
 
-Male customers generate ~68% of total revenue
-
-Young Adults & Middle-aged groups are the highest spenders
-
-80% customers are Loyal, but new customer acquisition is very low (2%)
-
-Subscribers are only 27% but highly engaged
-
-Clothing dominates product categories
-
-Items like Hat, Sneakers, Coat depend heavily on discounts
-
-Highest-rated products include Gloves, Sandals, Boots, Skirt
-
-💡 Business Recommendations
-Strengthen Subscription Program
-
-Target loyal buyers with exclusive benefits.
-
-Boost New Customer Acquisition
-
-Referral programs, social media targeting, influencer campaigns.
-
-Optimize Discount Strategy
-
-Reduce over-discounting on price-sensitive items.
-
-Promote High-Rated Products
-
-Leverage them in website banners and marketing.
-
-Improve Category Performance
-
-Invest in Clothing & Accessories (top-performing categories).
-
-Personalized Marketing
-
-Tailor campaigns to Young Adults and Middle-aged consumers.
-
-📁 Final Deliverables
-
-✔ Python cleaning & EDA notebook
-
-✔ MySQL SQL analysis (10 questions + insights)
-
-✔ Power BI interactive dashboard
-
-✔ PDF report
-
-✔ Presentation slides
-
-✔ Organized GitHub repository
-
-🛠️ Technologies Used
-
-Python (pandas, numpy)
-
-Jupyter Notebook
-
-MySQL Workbench
-
-Power BI
-
-Excel
-
-Git & GitHub
-
-👤 Author
-
-Ganesh Shiva Kuppaswamy
-MSc Data Science, AI & Digital Business
-Berlin, Germany
+⭐ *If you found this project useful, please star the repo!* ⭐
+```
